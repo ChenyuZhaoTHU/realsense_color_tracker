@@ -26,7 +26,7 @@ setup(
     maintainer_email='user@todo.todo',
     description='Color tracking node',
     license='TODO: License declaration',
-    tests_require=['pytest'],
+    extras_require={'test': ['pytest']},
     entry_points={
         'console_scripts': [
             'tracker = realsense_color_tracker.tracker_node:main',
