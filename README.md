@@ -142,8 +142,8 @@ header:
 pose:
   position:
     x: 0.15  # Right (meters)
-    y: -0.05 # Up (meters)
-    z: 2.10  # Forward (meters)
+    y: 0.39 # Forward (meters)
+    z: -0.10  # Up (meters)
 ```
 
 -----
@@ -178,8 +178,8 @@ pip install "numpy<2.0"
 ## 📝 Coordinate System
 
   * **X**: Horizontal (Right is positive)
-  * **Y**: Vertical (Down is positive)
-  * **Z**: Depth (Forward is positive)
+  * **Y**: Depth (Forward is positive)
+  * **Z**: Vertical (Down is positive)
   * The origin `(0,0,0)` is the center of the RGB Camera lens.
 
 <!-- end list -->
