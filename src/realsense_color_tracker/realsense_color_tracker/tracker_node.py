@@ -182,7 +182,7 @@ class ColorTrackerNode(Node):
         # pos 是 [x, y, z] 单位 mm
         msg = PoseStamped()
         msg.header.stamp = self.get_clock().now().to_msg()
-        msg.header.frame_id = "camera_link" # 对应 Realsense 的 TF 坐标系
+        msg.header.frame_id = "camera_color_frame" # 对应 Realsense 的 TF 坐标系
         
         # 转换为米 (ROS 标准单位)
         msg.pose.position.x = pos[2] / 1000.0
