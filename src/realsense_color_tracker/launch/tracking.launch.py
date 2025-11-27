@@ -21,6 +21,9 @@ def generate_launch_description():
         launch_arguments={
             'align_depth.enable': 'true',             # 开启对齐
             'filters': 'spatial,temporal,hole_filling', # 开启滤波器
+            'pointcloud.enable': 'true', 
+            'decimation_filter.enable': 'true',
+            'clip_distance': '4.0',
             'rgb_camera.profile': f'{WIDTH}x{HEIGHT}x{FPS}',
             'depth_module.profile': f'{WIDTH}x{HEIGHT}x{FPS}',
         }.items()
