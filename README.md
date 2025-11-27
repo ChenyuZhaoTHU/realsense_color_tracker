@@ -93,7 +93,7 @@ Before running the tracker, you **must** calibrate the HSV thresholds for your s
 This launches both the RealSense driver (with filters enabled) and the tracker node.
 
 ```bash
-ros2 launch realsense_color_tracker run_all.launch.py
+ros2 launch realsense_color_tracker tracking.launch.py
 ````
 
 ### Option 2: Manual Launch
